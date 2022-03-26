@@ -1,0 +1,47 @@
+#
+# .gitattributes
+#
+
+## GENERIC ##
+
+*					text=auto
+
+
+## SOURCE CODE ##
+
+*.py				eol=lf diff=python
+
+
+## CONFIG FILES ##
+
+*.cfg				eol=crlf
+*.conf				eol=crlf
+
+
+## TEXT & MARKUP FILES ##
+
+*.txt				eol=crlf
+*.log				eol=crlf
+*.md				eol=crlf diff=markdown
+*.mkdn				eol=crlf diff=markdown
+*.markdown			eol=crlf diff=markdown
+*.rst				eol=lf
+*.tex				eol=lf diff=latex
+
+
+## SCRIPTS ##
+
+*.bat				eol=crlf
+*.cmd				eol=crlf
+*.ps1				eol=crlf
+*.sh				eol=lf
+*.csh				eol=lf
+*.fish				eol=lf
+Makefile			eol=lf
+
+
+## BINARY FILES ##
+
+*.doc				binary
+*.docx				binary
+*.pdf				binary
